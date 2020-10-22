@@ -9,20 +9,20 @@ arrayOfPercentage();
 public static void arrayOfPercentage()
 {
 	System.out.println("This method is invoked by main");
-	int sslcPercentage=88;
-	int pucPercentage=82;
-	int degreePercentage=72;
+      float sslcPercentage=88.08f;
+	  float pucPercentage=82.76f;
+	  float degreePercentage=72.87f;
 	
 	
-	int[] allPercentages={sslcPercentage,pucPercentage,degreePercentage};
+	 float[] allPercentages={sslcPercentage,pucPercentage,degreePercentage};
 	
-        int noOfPercentages=allPercentages.length;
+         float noOfPercentages=allPercentages.length;
 		System.out.println("total no of percentages :"+noOfPercentages);
 		
-		 int index1=allPercentages[0];
+		 float index1=allPercentages[0];
 		System.out.println("The index one is :"+index1);
 
-	 int index2=allPercentages[1];
+	  float index2=allPercentages[1];
 		System.out.println("The index two is :"+index2);
 
 		 
