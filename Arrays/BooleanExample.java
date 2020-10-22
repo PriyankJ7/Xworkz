@@ -10,22 +10,22 @@ public static void booleanMethod()
 {
 System.out.println("Thsi method is invoked by main");
 
-String waterConstant="false";
-String starsCounts="false";
-String traingle="true";
+boolean waterConstant="false";
+boolean starsCounts="false";
+boolean traingle="true";
 
-String[] noOfBoolean={waterConstant,starsCounts,traingle};
+boolean[] noOfBoolean={waterConstant,starsCounts,traingle};
 
 int number=noOfBoolean.length;
 System.out.println("no of Boolean Statements :"+number );
 
-String index0=noOfBoolean[0];
+boolean index0=noOfBoolean[0];
 System.out.println(" the index is :" +index0);
 
-String index1=noOfBoolean[1];
+boolean index1=noOfBoolean[1];
 System.out.println(" the index is :" +index1);
 
-String index2=noOfBoolean[2];
+boolean index2=noOfBoolean[2];
 System.out.println(" the index is :" +index2);
 
 
